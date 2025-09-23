@@ -38,4 +38,23 @@ One last thing, the contents of some episodes might not be SFW, I didn't have ti
 [Funniest Joke In The World](https://www.youtube.com/watch?v=dx8GvJAXmC0&t=1984s) - "AI"  
 [The Bobs & The Bees](https://www.youtube.com/watch?v=pbSMO5noMD4)  
 [Who's The Worst](https://www.youtube.com/watch?v=o1QctZdnTtk)  
+[Change](https://www.youtube.com/watch?v=I8nZ-w_aopc)  
 [Friendship Test: Mark Edition](https://www.youtube.com/watch?v=jsr3QCzuv-0)  
+[Distractible: The Musical](https://www.youtube.com/watch?v=M5kiuHWsiP4)  
+## Video
+[The Shoe Game](https://www.youtube.com/watch?v=f5g_1gujYyo)  
+[Riddles and Rhymes](https://www.youtube.com/watch?v=g5QFVDH93O4) - AI  
+[Bread](https://www.youtube.com/watch?v=aiJibx8diN8)  
+[Three \*\*\*\*\* in a Pod](https://www.youtube.com/watch?v=9j29LGJbTC8) - Don't know if I needed to censor that. It's an episode about gaming news, and it's named after their previous podcast.  
+[The Wheel of Fate](https://www.youtube.com/watch?v=Je79p1LeTec)  
+[Weird](https://www.youtube.com/watch?v=ZMIlQFMeQ78)  
+[Weird (Part 2)](https://www.youtube.com/watch?v=b0uDo0RJCtY)  
+[Weird (Part 3)](https://www.youtube.com/watch?v=bZxGeUlvqe0)  
+[Illegal Advice](https://www.youtube.com/watch?v=2qBSr1qpLlQ) - In my opinion, this is really where it feels like modern Distractible starts.  
+[These Are Gaffes?](https://www.youtube.com/watch?v=h7AkEDoZWvo)  
+["Not""Financial""Advice"](https://www.youtube.com/watch?v=XxySw41-sL0)  
+[What Distractible Stands For](https://www.youtube.com/watch?v=jT9VERmxxHM)  
+[We're Getting Older](https://www.youtube.com/watch?v=YOMd4uoYOV8)  
+[Chess 3](https://www.youtube.com/watch?v=CbY_P9OaZDg)
+## [The Council of Distractible](https://www.youtube.com/watch?v=UjuFAi2He8Y)
+[You'll Never Believe What Happened](https://www.youtube.com/watch?v=Iz4eS75jUcY)  
