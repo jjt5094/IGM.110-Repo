@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dice Roller</title>
+  <style>
+    h1{
+      font-family: sans-serif;
+    }
+    /* https://www.w3schools.com/csS/css3_buttons.asp */
+    button {
+      background-color: #04AA6D;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+
+    #btn4{
+      background-color: darkmagenta;
+    }
+
+    #btn6{
+      background-color: cyan;
+    }
+    
+    #btn8{
+      background-color: coral;
+    }
+    
+    #btn10{
+      background-color: mediumseagreen;
+    }
+
+    #btn12{
+      background-color: darkslategray;
+    }
+    
+    #btn20{
+      background-color: goldenrod;
+    }
+
+    #btn100{
+      background-color: maroon;
+    }
+
+    #btnClear {
+      background-color: red;
+    }
+
+    button:hover {
+      opacity: 0.8;
+    }
+
+    ul {
+      list-style-type: none;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Dice Roller!</h1>
+  <div>
+    <button id="btn4">D4</button>
+    <button id="btn6">D6</button>
+    <button id="btn8">D8</button>
+    <button id="btn10">D10</button>
+    <button id="btn12">D12</button>
+    <button id="btn20">D20</button>
+    <button id="btn100">D100</button>
+  </div>
+
+  <hr>
+
+  <div>The roll is: <span id="numberSpan">???</span></div>
+  
+  <div><ul id="historyList">No history</ul></div>
+
+  <div><button id="btnClear">Clear History?</button></div>
+
+  <script>
+    // We are putting the <script> tag at the bottom to make sure that 
+    // the HTML page has loaded before we start trying to hook up button events
+    
+    // The following code is loaded in once, when the HTML page first loads
+
+    let addToHistTriggers = 0;
+    let prevHistory;
+
+    function addToHistory(currentDie, currentRoll) {
+      // clear the "No history" before adding the first item
+      if (addToHistTriggers == 1) {
+        historyList.innerHTML = "";
+      }
+      if (addToHistTriggers > 0) {
+        prevHistory = historyList.innerHTML
+        historyList.innerHTML = "<li>" + "d"+ prevDie + ": " + prevRoll + "</li>" + prevHistory
+      }
+      prevDie = currentDie
+      prevRoll = currentRoll
+
+      addToHistTriggers += 1
+    }
+    
+    function showRandomInt(min, max) {
+      min = Math.ceil(min);
+      max = Math.floor(max);
+      let number = Math.floor(Math.random() * (max - min + 1)) + min;
+      numberSpan.innerHTML = number;
+      addToHistory(max, number);
+    }
+
+    btn4.onclick = function(){
+      showRandomInt(1, 4);
+    };
+
+    btn6.onclick = function(){
+      showRandomInt(1, 6);
+    };
+
+    btn8.onclick = function(){
+      showRandomInt(1, 8);
+    };
+
+    btn10.onclick = function(){
+      showRandomInt(1, 10);
+    };
+
+    btn12.onclick = function(){
+      showRandomInt(1, 12);
+    };
+
+    btn20.onclick = function(){
+      showRandomInt(1, 20);
+    };
+
+    btn100.onclick = function(){
+      showRandomInt(1, 100);
+    };
+
+    btnClear.onclick = function(){
+      historyList.innerHTML = "<li> History cleared </li>"
+      addToHistTriggers = 0
+    };
+
+  </script>
+</body>
+</html>
